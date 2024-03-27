@@ -13,6 +13,8 @@ M.general = {
       "formatting",
     },
 
+    -- close split
+    ["<leader>cx"] = { "<C-w>c", "close split" },
   },
   v = {
     [">"] = { ">gv", "indent"},
