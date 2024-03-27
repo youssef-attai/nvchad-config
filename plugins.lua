@@ -85,6 +85,12 @@ local plugins = {
         "tsx",
         "markdown",
         "markdown_inline",
+        "python",
+        "json",
+        "yaml",
+        "bash",
+        "dart",
+        "php",
       },
       indent = {
         enable = true,
