@@ -124,6 +124,21 @@ local plugins = {
       vim.keymap.set({ "n" }, "S", "<Plug>(leap-backward)")
     end,
   },
+
+  {
+    "akinsho/flutter-tools.nvim",
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "stevearc/dressing.nvim", -- optional for vim.ui.select
+    },
+    opts = {
+      lsp = {
+        on_attach = require("plugins.configs.lspconfig").on_attach,
+        capabilities = require("plugins.configs.lspconfig").capabilities,
+      },
+    },
+  },
   -- Vim TMux Navigator
   {
     "christoomey/vim-tmux-navigator",
