@@ -20,6 +20,8 @@ local plugins = {
         -- Laravel and PHP
         "intelephense",
 
+        -- Other
+        "bash-language-server",
       },
     },
   },
