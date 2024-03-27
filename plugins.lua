@@ -16,6 +16,10 @@ local plugins = {
         "typescript-language-server",
         "tailwindcss-language-server",
         "prettier",
+
+        -- Laravel and PHP
+        "intelephense",
+
       },
     },
   },
