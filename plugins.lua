@@ -60,6 +60,8 @@ local plugins = {
           json = { "prettier" },
 
           sh = { "shfmt" },
+
+          php = { "pint" },
         },
       }
     end,
