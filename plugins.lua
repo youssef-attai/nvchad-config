@@ -22,6 +22,8 @@ local plugins = {
 
         -- Other
         "bash-language-server",
+        "json-lsp",
+        "yamlls",
       },
     },
   },
