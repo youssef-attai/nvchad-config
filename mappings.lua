@@ -39,5 +39,29 @@ M.copilot = {
   },
 }
 
+M.flutter = {
+  n = {
+    ["<leader>,r"] = {
+      "<cmd> FlutterRun <CR>",
+      "Flutter Run",
+    },
+    ["<leader>,R"] = {
+      "<cmd> FlutterRestart <CR>",
+      "Flutter Restart",
+    },
+    ["<leader>,e"] = {
+      "<cmd> FlutterEmulators <CR>",
+      "Flutter Emulators",
+    },
+    ["<leader>,l"] = {
+      "<cmd> FlutterLogClear <CR>",
+      "Flutter Log Clear",
+    },
+    ["<leader>,q"] = {
+      "<cmd> FlutterQuit <CR>",
+      "Flutter Quit",
+    },
+  },
+}
 
 return M
