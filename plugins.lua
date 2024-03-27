@@ -57,6 +57,7 @@ local plugins = {
           javascript = { "prettier" },
           css = { "prettier" },
           html = { "prettier" },
+          json = { "prettier" },
 
           sh = { "shfmt" },
         },
